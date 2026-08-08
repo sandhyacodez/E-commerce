@@ -1,3 +1,4 @@
+ // Main entry point for the Express server
 require("dotenv").config();
 
 const express=require("express");

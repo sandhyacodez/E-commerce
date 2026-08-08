@@ -22,7 +22,7 @@ function App() {
 
             <header>
 
-                <h1>E-Commerce Platform</h1>
+                <h1>Enterprise E-Commerce Platform</h1>
 
                 <div className="subtitle">
                     Products are loaded from
