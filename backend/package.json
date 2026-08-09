@@ -1,16 +1,16 @@
+```json
 {
-"name":"backend",
-"scripts":{
-"start":"node src/server.js"
-},
+  "name": "backend",
+  "scripts": {
+    "start": "node src/server.js"
+  },
 
-"dependencies":{
-
-"cors":"latest",
-"express":"latest",
-"pg":"latest",
-"dotenv":"latest"
-
+  "dependencies": {
+    "cors": "latest",
+    "express": "latest",
+    "pg": "latest",
+    "dotenv": "latest",
+    "stripe": "^10.0.0"
+  }
 }
-
-}
+```
