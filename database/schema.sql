@@ -1,3 +1,5 @@
+-- Increased password hash length for security update
+
 CREATE TABLE products(
     id SERIAL PRIMARY KEY,
     name VARCHAR(100),
