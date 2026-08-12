@@ -17,3 +17,6 @@ VALUES
 ('Printer', 12000),
 ('Tablet', 18000),
 ('USB Cable', 500);
+
+CREATE TABLE users (id SERIAL PRIMARY KEY, email VARCHAR(255) UNIQUE);
+CREATE INDEX idx_users_email ON users(email);

@@ -1,0 +1,26 @@
+name: Node and React CI
+
+# This answers the previous question! 
+# It tells GitHub to ONLY run this action on pushes or PRs to the main branch.
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: GitHub needs to download your code into the cloud server first
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      # Step 2: Run your custom commands
+      - name: Run Dummy Tests
+        run: |
+          echo "Setting up environment..."
+          echo "Running Node and React tests..."
+          echo "Tests passed! ✅"

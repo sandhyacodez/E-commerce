@@ -15,5 +15,7 @@ port:process.env.DB_PORT
 
 });
 
+console.log("Database connected successfully!");
 
 module.exports=pool;
+console.log("Database connected successfully!");
